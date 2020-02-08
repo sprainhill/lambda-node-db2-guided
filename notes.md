@@ -15,3 +15,7 @@ Create a knex configuration file (knexfile.js). Type: `knex init`
 Update to teach knex how to connect to database
 
 To create a migration type: `knex migrate:make migration-name`
+
+To run a migration type: `knex migrate:latest`
+
+Can run them one at a time as `knex migrate:up` `knex migrate:down`
