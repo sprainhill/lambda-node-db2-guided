@@ -2,7 +2,7 @@
 // make changes
 exports.up = function(knex) {
     // always return the call to knex.schema
-    return knex.schema.createTabe('veggies', tbl => {
+    return knex.schema.createTable('veggies', tbl => {
         // primary key - id - int - auto increments
         tbl.increments();
         tbl.string('veggie_name', 255)

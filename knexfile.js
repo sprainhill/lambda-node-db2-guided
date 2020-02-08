@@ -16,7 +16,7 @@ module.exports = {
     client: 'sqlite3', // the db driver
     useNullAsDefault: true, // only needed for SQLite3
     connection: {
-      filename: './data.produce.db3' // where is db file
+      filename: './data/produce.db3' // where is db file
     }
   },
 
