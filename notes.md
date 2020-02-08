@@ -19,3 +19,9 @@ To create a migration type: `knex migrate:make migration-name`
 To run a migration type: `knex migrate:latest`
 
 Can run them one at a time as `knex migrate:up` `knex migrate:down`
+
+## Seeds
+
+To create a seed: `knex seed:make nameOfSeed`
+
+To run the seeds: `knex seed:run`
